@@ -1,0 +1,31 @@
+Table:
+Age	Sex	ChestPainType	RestingBP	Cholesterol	FastingBS	RestingECG	MaxHR	ExerciseAngina	Oldpeak	ST_Slope	HeartDisease
+0	40	M	ATA	140	289	0	Normal	172	N	0.00	Up	0
+1	49	F	NAP	160	180	0	Normal	156	N	1.00	Flat	1
+2	37	M	ATA	130	283	0	ST	98	N	0.00	Up	0
+3	48	F	ASY	138	214	0	Normal	108	Y	1.50	Flat	1
+4	54	M	NAP	150	195	0	Normal	122	N	0.00	Up	0
+
+Data Info:
+Data columns (total 12 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Age             918 non-null    int64  
+ 1   Sex             918 non-null    object 
+ 2   ChestPainType   918 non-null    object 
+ 3   RestingBP       918 non-null    int64  
+ 4   Cholesterol     918 non-null    int64  
+ 5   FastingBS       918 non-null    int64  
+ 6   RestingECG      918 non-null    object 
+ 7   MaxHR           918 non-null    int64  
+ 8   ExerciseAngina  918 non-null    object 
+ 9   Oldpeak         918 non-null    float64
+ 10  ST_Slope        918 non-null    object 
+ 11  HeartDisease    918 non-null    int64  
+dtypes: float64(1), int64(6), object(5)
+
+Data described in transpose: 
+	count	mean	std	min	25%	50%	75%	max
+Age	918.00	53.51	9.43	28.00	47.00	54.00	60.00	77.00
+RestingBP	918.00	132.40	18.51	0.00	120.00	130.00	140.00	200.00
+Cholesterol	918.00	198.80	109.38	0.00	173.25	223.00	267.00	603.00
